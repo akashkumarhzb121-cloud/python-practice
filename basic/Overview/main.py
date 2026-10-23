@@ -26,3 +26,4 @@ memoryview
 NoneType
 '''
 #Note: map() is a built-in function, not a separate built-in collection type.
+#For Data Science journey, focus first on list, tuple, set, dict, str, range, and map(). These appear frequently when filtering data, cleaning datasets, transforming values, and working with Pandas.
