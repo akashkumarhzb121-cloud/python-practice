@@ -5,6 +5,7 @@ An array is a data structure used to store multiple elements under one variable 
 - array module: Stores elements of a specified numeric type.
 - NumPy array (ndarray): Used for fast numerical calculations and Data Science.
 '''
+#2. Python list vs array
 # List: different data types allowed
 my_list = [10, 20, "Akash", 30.5]
 print(my_list)
