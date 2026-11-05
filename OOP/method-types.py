@@ -29,3 +29,24 @@ class Calculator:
         return a + b
 
 print(Calculator.add(10, 20))
+
+#8. Special methods and operator overloading
+'''
+Special methods, often called dunder methods, have names with double underscores, such as __init__ and __str__.
+
+You can use them to define how your objects interact with built-in Python operations.
+'''
+class Book:
+    def __init__(self, title):
+        self.title = title
+
+    def __str__(self):
+        return self.title
+
+book = Book("Python Basics")
+print(book)
+'''
+Without __str__(), printing a custom object usually produces a less readable representation.
+
+You can also define methods such as __add__() to customize the + operator for your own class. This is known as operator overloading.
+'''
